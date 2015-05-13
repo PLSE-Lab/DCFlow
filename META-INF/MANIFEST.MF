@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CFG
+Bundle-SymbolicName: CFG
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.imp.pdb.values,
+ rascal
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: lang.dcflow.ast,
+ lang.dcflow.base,
+ lang.dcflow.generate,
+ lang.dcflow.ide,
+ lang.dcflow.resource,
+ lang.dcflow.syntax,
+ lang.dcflow.util
